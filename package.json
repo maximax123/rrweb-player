@@ -24,7 +24,8 @@
     "autobuild": "rollup -c -w",
     "dev": "run-p start:dev autobuild",
     "start": "sirv public",
-    "start:dev": "sirv public --dev"
+    "start:dev": "sirv public --dev",
+    "prepare": "npm run build"
   },
   "description": "rrweb's replayer UI",
   "main": "lib/index.js",
