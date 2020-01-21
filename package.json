@@ -16,7 +16,7 @@
     "svelte": "^2.16.0"
   },
   "dependencies": {
-    "rrweb": "^0.7.25"
+    "rrweb": "https://github.com/maximax123/rrweb.git"
   },
   "scripts": {
     "build": "rollup -c",
